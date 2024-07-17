@@ -1,2 +1,2 @@
-resourceGroupName = "rg-terraform-github-actions-state"
+resourceGroupName = "rg-terraform-github-actions-state1"
 location = "eastus"
