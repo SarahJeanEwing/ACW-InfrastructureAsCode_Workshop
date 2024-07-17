@@ -1,5 +1,5 @@
 locals {
-    storageAccountNameFull = "${var.storageAccountBase}${var.uniqueIdentifier}${var.environment}"
+    storageAccountNameFull = "${var.storageAccountBase}${var.uniqueIdentifier}${var.}"
 }
 
 resource "azurerm_storage_account" "stgAcctEnv" {
